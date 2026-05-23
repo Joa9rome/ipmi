@@ -19,14 +19,12 @@ void setup() {
   img4 = loadImage("imagen 4.jpg");
   img5 = loadImage("imagen 5.jpg");
 
-  // AJUSTAR IMÁGENES
   img1.resize(width, height);
   img2.resize(width, height);
   img3.resize(width, height);
   img4.resize(width, height);
   img5.resize(width, height);
 
-  // FUENTE
   fuente = createFont("Georgia", 22);
   textFont(fuente);
 
